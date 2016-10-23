@@ -1,0 +1,114 @@
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+$if(mainlang)$
+\mainlanguage[$mainlang$]
+$else$
+\mainlanguage[cz]
+$endif$
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=middleblue]
+
+% \setuppapersize [$if(papersize)$$papersize$$else$A4$endif$][$if(papersize)$$papersize$$else$A4$endif$]
+\setuppapersize [A5][A5]
+% \setuplayout    [width=middle,  backspace=1.5in, cutspace=1.5in, height=middle, topspace=0.75in, bottomspace=0.75in]
+
+\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt]
+
+\setupwhitespace[medium]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfc]
+\setuphead[subsection]   [style=\tfb]
+\setuphead[subsubsection][style=\bf]
+
+$if(number-sections)$
+$else$
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+$endif$
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal, location=hanging, width=broad, margin=1cm]
+
+\setupitemize[autointro]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\blank[medium]},
+   after={\blank[medium]},
+   indentnext=no,
+  ]
+
+$if(toc)$
+\setupcombinedlist[content][list={$placelist$}]
+$endif$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+% Kustomizace
+
+\usetypescript[iwona]
+\definetypeface [antykwa] [rm] [serif] [antykwa-torunska] [default] [encoding=ec]
+
+\setupbodyfont[iwona,12pt]
+
+\setuphead[section][style={\tfd\antykwa}]
+\setuphead[subsection][style={\tfa\sc\antykwa},page=yes]
+
+\placebookmarks[section,subsection][force=yes]
+\setupinteractionscreen[option=bookmark]
+\setupinteraction[state=start,title={$title$},author={$author$}]
+\setupinteraction[openaction=FitWidth,focus=FitWidth]
+
+\def\thinrule{
+\page
+}
+
+\starttext
+$if(title)$
+\startstandardmakeup
+\startalignment[center]
+  \blank[2*big]
+  {\tfd $title$}
+$if(author)$
+  \blank[3*medium]
+  {\tfa $for(author)$$author$$sep$\crlf $endfor$}
+$endif$
+$if(date)$
+  \blank[2*medium]
+  {\tfa $date$}
+$endif$
+  \blank[3*medium]
+\stopalignment
+\stopstandardmakeup
+$endif$
+
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$if(toc)$
+\placecontent
+\page
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+$endfor$
+\stoptext
