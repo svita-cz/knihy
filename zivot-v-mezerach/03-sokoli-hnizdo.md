@@ -337,8 +337,9 @@ A asi o padesát kilometrů východněji si tesař jménem König otvíral obál
 
 FINIS
    
-[^sh1] : Myšlenky převzaty ze stránek richard-1.com - autor major H.
-[^sh2] : Mojí ctí je věrnost. Mimochodem motto SS, tak ho neříkejte v Rakousku a Německu, je tam zakázané.
-[^sh3] : Kōnig, ačkoliv dobře věděl, že ho zdržuje, mu na to říkal: „ale ne, vůbec nezdržujete“
-[^sh4] : čte se to Ležér
+[^sh1]: Myšlenky převzaty ze stránek richard-1.com - autor major H.
+
+[^sh2]: Mojí ctí je věrnost. Mimochodem motto SS, tak ho neříkejte v Rakousku a Německu, je tam zakázané.
+
+[^sh3]: Kōnig, ačkoliv dobře věděl, že ho zdržuje, mu na to říkal: „ale ne, vůbec nezdržujete“
 

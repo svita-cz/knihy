@@ -60,7 +60,7 @@ Rozloučila se s filozofem a pokračovala domů. Bydlet sám má své nepochybn�
 
 Už stála v koupelně v županu a čistila si zuby, když si na něco vzpomněla. Volební lístky!
 
-V zásuvce psacího stolu ležela ještě neotevřená sada volebních lístků. Markéta nezvolila[^2].
+V zásuvce psacího stolu ležela ještě neotevřená sada volebních lístků. Markéta nezvolila.
 
 Jedním z důvodů byl mizerný výběr. Z kandidátů připadala v úvahu asi jen matka její spolužačky Valérie, samotná Valérie se však na možnost, že by se přes noc stala dcerou starostky, dívala docela kriticky. Kromě toho Markéta neměla čas. Všechny ty výstavy, zkoušky, včerejší koncert Obwodu LRC…
 
