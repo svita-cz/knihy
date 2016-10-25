@@ -20,4 +20,3 @@ todo:
  - učesat markdown (poznámky pod čarou)
  - učesat dialogy a úvozovky
  - více opsat Problém tří těles
- - prověřit, proč blbne kompilace na windowsu (git cr+lf)
