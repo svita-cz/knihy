@@ -28,7 +28,7 @@ Svůj život si prožiju v mezerách a přestávkách, jako je tato, říkám si
 
 Na patře krmí recepční Martina masožravou rostlinu jakýmsi blanokřídlým hmyzem.
 
-To je můj život v mezerách. V krabici s dopisy na stole skončil *milostný dopis anonymní, psaný mou rukou*. Vrátil se zpět od adresátky. Pohlédl jsem na něj, poznal svůj výtvor a zařadil ho do archivu pod kategorii *829g - upomínka na nezaplacené připojení k telekomunikační síti*.
+To je můj život v mezerách. V krabici s dopisy na stole skončil *milostný dopis anonymní*, psaný mou rukou. Vrátil se zpět od adresátky. Pohlédl jsem na něj, poznal svůj výtvor a zařadil ho do archivu pod kategorii *829g - upomínka na nezaplacené připojení k telekomunikační síti*.
 
 * * *
 
