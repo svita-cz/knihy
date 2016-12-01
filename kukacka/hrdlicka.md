@@ -1,6 +1,6 @@
-#Hrdlička ve schránce
+# Hrdlička ve schránce
 
-![](49.gif)
+![](49.png)
 
 To ráno jsem jako vždy vybíral poštovní schránku. A mezi věcmi tam obvyklými (upomínkami za nezaplacené připojení k telekomunikační síti, mezi dopisy od nakladatele a reklamami) mě tam překvapila jedna neobvyklá - zraněná hrdlička. Seděla v rohu schránky a tiše vrkala. Došel jsem domů pro nějaké zrní a nasypal jsem jí ho do schránky.
 

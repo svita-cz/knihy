@@ -1,10 +1,10 @@
-#Pod vlivem
+# Pod vlivem
 
 serotoninu, dopaminu a Kukačky 
 
-![](99.gif)
+![](99.png)
 
-##Samota mezi lidmi
+## Samota mezi lidmi
 
 Ach, jak ten pocit znám,  
 už zase jsem v tom stavu,  
@@ -14,7 +14,7 @@ v metru uprostřed davu.
 Les dal by možná klid mi  
 samota mezi lidmi. 
 
-##Potěmkináda
+## Potěmkináda
 
 pocit, ten zůstává, důvod se mění  
 letectvo z papíru na stole není  
@@ -30,7 +30,7 @@ Verča, ta ve svetru s koníčky
 dneska jsem pochopil, co mi tak schází  
 asi tak tři až pět pitomejch frází   
 
-##Zvlástní
+## Zvlástní
 
 Zkouška sirén  
 A manželský hádky se ženou,  
@@ -46,7 +46,7 @@ Ale ty oči vlastně nevidíme
 Vlastně nevlastní  
 Zvlástní   
 
-##Kdeže
+## Kdeže
 
 A noční město pomalu usíná  
 jen hučí auta na Barrandovským mostě.  
@@ -56,14 +56,14 @@ a mám chuť zeptat se kdo jste?
 V kterém z oken je tahleta  
 Princezna moje zakletá?   
 
-##Výstižna
+## Výstižna
 
 Ať se snažíš, jak se snažíš,  
 lásku z hlavy nevyrazíš,  
 ani chlastem, ani prací,  
 pořád se ti mrcha vrací.   
 
-##Možná
+## Možná
 
 Možná nejsem třicátník finančně zajištěnej,  
 možná zatím nechci dítě a možná ani štěně,  
@@ -75,7 +75,7 @@ možná nemám diplomy, tituly a školy,
 že jsem toho hodně řekl může se vám zdát  
 však rád bych dodal dodatek: Prostě Tě mám rád.   
 
-##Modrý plamen
+## Modrý plamen
 
 Čekání do noci na krásku  
 Která stejně nakonec nepřijde  
@@ -85,7 +85,7 @@ Vysněné setkání nikdy mi nevyjde
 Jen modrý plamen hoří tu do noci  
 Že srdce hořelo - není mi pomoci   
 
-##Výlet za čáru
+## Výlet za čáru
 
 Výlet za tenkou čáru  
 hranici všedních dní.  

@@ -1,8 +1,8 @@
-#Pro kukačku
+# Pro kukačku
 
-![](27.gif)
+![](27.png)
 
-##Nad červenajícími plody jabloní
+## Nad červenajícími plody jabloní
 
 Nad červenajícími plody jabloní,  
 slunce pomalu nebem klouzá  
@@ -19,7 +19,7 @@ zákazu vstupu míjim značku.
 Chtěl jsem jen napsat pár veršíků  
 pro sebe a pro kukačku.  
 
-##Viděl jsem nad řekou
+## Viděl jsem nad řekou
 
 Viděl jsem nad řekou labutě letící  
 ve výši topolů nad vodou lesknoucí.  
@@ -33,7 +33,7 @@ po vzoru labutí nad řekou lítávat.
 Labuť však křídla má a člověk je nemá  
 alespoň dokud mu láska je nedá.   
 
-##Tak co mi brání
+## Tak co mi brání
 
 Hlavu mám plnou,  
 cizích slov.  
@@ -60,7 +60,7 @@ zůstat mě nutí,
 peníze, málo času,  
 strach z odmítnutí.   
 
-##Co mě tak láká?
+## Co mě tak láká?
 
 A ty se ptáš,  
 co mě tak láka, na tobě?  
@@ -87,7 +87,7 @@ tak dáváš mi směr.
 Oslovit můžu pak, to slunce nad náma:  
 Jen do mě si per!  
 
-##Koupel při měsíčku
+## Koupel při měsíčku
 
 Já zazpívám vám písničku  
 o koupání při měsíčku.  
@@ -129,7 +129,7 @@ a všechna zima odletí.
 
 CINK! 
 
-##Má to vůbec cenu?
+## Má to vůbec cenu?
 
 Teď už vím já, za čím se to ženu.  
 A tak se ptám, má to vůbec cenu?  
@@ -143,7 +143,7 @@ Proskakovat ohněm a brodit se ve sněhu...
 Má to vůbec cenu, pokračovat dál,  
 když po sólovém partu, mi tleská prázdný sál.   
 
-##Pevný bod
+## Pevný bod
 
 dejte mi pevný bod  
 já pohnu zemí  
@@ -161,7 +161,7 @@ než slyšel jsem tvůj hebký hlas
 než přečet' jsem tvůj první vzkaz  
 
 
-##Zas to sklo
+## Zas to sklo
 
 Anička zas usíná v autobuse,  
 mně sladká slůvka hořknou v puse.  
@@ -173,7 +173,7 @@ po hlase, co jsem neslyšel,
 po věcech, co jsem nezažil,  
 po citu, který jsem si vysnil. 
 
-##Pomalý dny a rychlý noci
+## Pomalý dny a rychlý noci
 
 Zas se všední den pomalu vleče  
 jako když rozžhaven asfalt teče.  
@@ -191,7 +191,7 @@ Už dávno vím, už dávno vnímám
 ||: *ty rychlý noci a pomalý dny  
 ten divnej pocit a splněný sny* :||  
 
-##Senzorická deprivace
+## Senzorická deprivace
 
 Tak dlouho jsem byl sám  
 vystavený tmám  
@@ -208,14 +208,14 @@ svým vlastním pohledem
 a ochutnat ten pocit  
 co láska dovede.   
 
-##Jen si mě utop
+## Jen si mě utop
 
 Jen si mě utop, rusalko, tam, v tom tvém rybníce.  
 Po ničem víc už netouží už mé srdce.  
 Než s tebou shořet, ve vodě se utopit,  
 A pak se druhý den po boku tvém probudit.  
 
-##Infinitivní
+## Infinitivní
 
 Šeptat nebo řvát?  
 Chtěl bych se teď ptát.  
@@ -226,7 +226,7 @@ z toho, že mám rád?
 Vždyť je o co stát   
 nebo není snad?  
 
-##Óda pro duši
+## Óda pro duši
 
 Kraťoučký šatičky,  
 nádherný nožičky,  
