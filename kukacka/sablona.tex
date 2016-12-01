@@ -60,13 +60,15 @@ $endfor$
 
 % Kustomizace
 
-\usetypescript[iwona]
-\definetypeface [antykwa] [rm] [serif] [antykwa-torunska] [default] [encoding=ec]
+\definefontfamily [antykwa] [rm] [Antykwa Torunska]
+
+\definefontfamily [iwona] [rm] [Iwona]
 
 \setupbodyfont[iwona,12pt]
 
-\setuphead[section][style={\tfd\antykwa}]
-\setuphead[subsection][style={\tfa\sc\antykwa},page=yes]
+\setuphead[section] [style=\tfc\antykwa]
+
+\setuphead[subsection] [style=\tfb\antykwa, page=yes]
 
 \placebookmarks[section,subsection][force=yes]
 \setupinteractionscreen[option=bookmark]
@@ -101,12 +103,12 @@ $for(include-before)$
 $include-before$
 $endfor$
 
-$if(toc)$
-\placecontent
-\page
-$endif$
-
 $body$
+
+$if(toc)$
+\page
+\placecontent[criterium=previous]
+$endif$
 
 $for(include-after)$
 $include-after$
