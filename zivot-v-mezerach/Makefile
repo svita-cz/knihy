@@ -1,5 +1,5 @@
 all:
-	echo "please use make <target>"
+	@echo "please use make <html>"
 
 html: amalgam
 	pandoc -o zivot-v-mezerach.html --toc --self-contained -s zivot-v-mezerach.md
