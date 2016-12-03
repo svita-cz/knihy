@@ -1,0 +1,25 @@
+html { font-family: Gidole, Calibri, sans-serif; line-height: 1.45; }
+h1, h2, h3 { color: green; }
+h1 { font-variant: small-caps; }
+h2 { font-size: 100%; text-transform: uppercase; }
+a, a:active, a:visited { color: #268bd2; }
+a { text-decoration:none; }
+a:hover { text-decoration: underline; }
+hr { margin-bottom:1.625em; border: 1px dashed #333;}
+ul, ul > ul { list-style-type: circle; }
+
+body { margin: auto;  width: 80%; }
+
+blockquote {
+padding-left: 1.5em;
+border-left-width: 4px;
+border-left: 4px solid rgba(170,170,170,0.5);
+}
+
+p + p { text-indent:1.625em;}
+
+@media print {
+	#TOC { display: none; }
+	
+	body  { width: 100% !important; }
+}
