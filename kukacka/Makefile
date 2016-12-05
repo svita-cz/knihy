@@ -10,14 +10,14 @@ clean:
 
 %: out/pro-kukacku.% ;
 
-out/%.html: | $(CHAPTERS) style-html.css $(MAKEFILE_LIST)
-	pandoc -o $@ --css style-html.css --toc --self-contained -s $(CHAPTERS)
+out/%.html: | $(CHAPTERS) meta.yml style-html.css $(MAKEFILE_LIST)
+	pandoc -o $@ --css style-html.css --toc --self-contained -s meta.yml $(CHAPTERS)
 
-out/%.epub: | $(CHAPTERS) $(MAKEFILE_LIST)
-	pandoc -o $@ -s $(CHAPTERS)
+out/%.epub: | $(CHAPTERS) meta.yml $(MAKEFILE_LIST)
+	pandoc -o $@ -s meta.yml $(CHAPTERS)
 
 out/%.pdf: %.tex | $(MAKEFILE_LIST)
 	context $< --batch-mode --purgeresult --result=$@
 
-%.tex: | $(CHAPTERS) sablona.contex $(MAKEFILE_LIST)
-	pandoc -o $@ -t context --toc --self-contained --template=sablona.contex -s $(CHAPTERS)
+%.tex: | $(CHAPTERS) meta.yml sablona.contex $(MAKEFILE_LIST)
+	pandoc -o $@ -t context --toc --self-contained --template=sablona.contex -s meta.yml $(CHAPTERS)

@@ -1,15 +1,3 @@
----
-title: Pro kukačku
-author: Mikoláš Štrajt
-contributor: Walter Crane
-date: 2015
-language: cs
-rights: CC-BY-SA
-stylesheet: style-epub.css
-cover-image: cover.png
-publisher: Svita.cz
----
-
 # Věnování
 
 ![](137.png)
