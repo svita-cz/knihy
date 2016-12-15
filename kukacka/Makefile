@@ -1,17 +1,23 @@
-all:
-	@echo "please use make <html>"
+CHAPTERS = meta.md pro-kukacku.md hrdlicka.md pod-vlivem.md tiraz.md
 
-html:
-	pandoc -o out/pro-kukacku.html --css style-html.css --toc --self-contained -s meta.md pro-kukacku.md hrdlicka.md pod-vlivem.md tiraz.md
+.PHONY: all clean
+.PRECIOUS: out/%.html out/%.epub out/%.pdf
 
-epub:
-	pandoc -o out/pro-kukacku.epub -s meta.md pro-kukacku.md hrdlicka.md pod-vlivem.md tiraz.md
-
-pdf:
-	pandoc -o pro-kukacku.tex -t context --toc --self-contained --template=sablona.tex -s meta.md pro-kukacku.md hrdlicka.md pod-vlivem.md tiraz.md
-	-rm pro-kukacku.pdf
-	context pro-kukacku.tex
-	mv pro-kukacku.pdf out/pro-kukacku.pdf
+all: html epub pdf
 
 clean:
 	rm out/*
+
+%: out/pro-kukacku.% ;
+
+out/%.html: | $(CHAPTERS) meta.yml style-html.css $(MAKEFILE_LIST)
+	pandoc -o $@ --css style-html.css --toc --self-contained -s meta.yml $(CHAPTERS)
+
+out/%.epub: | $(CHAPTERS) meta.yml $(MAKEFILE_LIST)
+	pandoc -o $@ -s meta.yml $(CHAPTERS)
+
+out/%.pdf: %.tex | $(MAKEFILE_LIST)
+	context $< --batch-mode --purgeresult --result=$@
+
+%.tex: | $(CHAPTERS) meta.yml sablona.contex $(MAKEFILE_LIST)
+	pandoc -o $@ -t context --toc --self-contained --template=sablona.contex -s meta.yml $(CHAPTERS)
